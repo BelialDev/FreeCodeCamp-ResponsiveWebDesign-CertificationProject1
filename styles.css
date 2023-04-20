@@ -57,6 +57,9 @@ body{
 .bottom-line{
     margin-top: 25px;
 }
+.submit{
+    display: inline-block;
+}
 
 /* FOOTER */
 footer{
