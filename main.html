@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This Survey is a certification project for FreeCodeCamp</p>
+    <form id="survey-form">
+        <fieldset>
+            <p><label id="name-label">Name: </label> <input id="name" type="text" required
+                    placeholder="Enter Your Name Here"></p>
+            <p><label id="email-label">Email: </label> <input id="email" type="email" required
+                    placeholder="Enter Your Email Here"></p>
+            <p><label id="number-label">Phone Number: </label> <input id="number" type="text" required min="8" max="10"
+                    placeholder="Enter Your Phone Number Here"></p>
+        </fieldset>
+        <fieldset>
+            <p><label>What Service are you requesting </label><select id="dropdown">
+                    <option>New Hardware</option>
+                    <option>Software Install</option>
+                    <option>PC Upgrades</option>
+                </select></p>
+            <p>Are there multiple Upgrades?</p>
+            <p><label from="moreUpgrades">Yes</label><input name="moreUpgrades" id="moreUpgrades" type="radio" value="yes">
+            </p>
+            <p><label from="moreUpgrades">Yes - Contact Me</label><input name="moreUpgrades" id="moreUpgrades"
+                    type="radio" value="yes"></p>
+            <p><label from="moreUpgrades">No</label><input name="moreUpgrades" id="moreUpgrades" type="radio" value="no"></p>
+            <p><label from="moreUpgrades">No - Contact Me</label><input name="moreUpgrades" id="moreUpgrades" type="radio"
+                    value="no"></p>
+        </fieldset>
+        <fieldset>
+            
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
